@@ -1,4 +1,4 @@
-package com.frontalx.patterns.creational.singleton;
+package com.frontalx.patterns.creational.singleton.SingleThread;
 
 public final class SingleThreadedSingleton {
 

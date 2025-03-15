@@ -1,6 +1,7 @@
 package com.frontalx.patterns.creational.builder;
 
 class Order {
+
   // Required fields
   private final String orderId;
   private final String customerName;
@@ -11,8 +12,8 @@ class Order {
   private final boolean giftWrap;
   private final String discountCode;
 
-  // Private constructor - can only be instantiated via Builder
-  private Order(String orderId, String customerName, String shippingAddress,
+  // protected constructor - can only be instantiated via Builder
+  protected Order(String orderId, String customerName, String shippingAddress,
                 String paymentMethod, boolean giftWrap, String discountCode) {
     this.orderId = orderId;
     this.customerName = customerName;

@@ -1,1 +1,1 @@
-# Structural Pattern
+# Structural Design Pattern
